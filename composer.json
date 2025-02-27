@@ -47,5 +47,7 @@
                 "FilamentYoastSeo": "Outreach\\Filament\\FilamentYoastSeo\\Facades\\FilamentYoastSeo"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
