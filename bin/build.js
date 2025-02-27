@@ -46,5 +46,5 @@ const defaultOptions = {
 compile({
     ...defaultOptions,
     entryPoints: ['./resources/js/index.js'],
-    outfile: './resources/dist/filament-yoast-seo.js',
+    outfile: './resources/dist/components/filament-yoast-seo.js',
 })
