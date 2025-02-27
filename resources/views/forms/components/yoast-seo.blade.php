@@ -8,7 +8,7 @@ use Filament\Support\Facades\FilamentAsset;
 <!-- Interact with the `state` property in Alpine.js -->
 <div class="container" id="seo-assessment"
 ax-load
-ax-load-src="{{ FilamentAsset::getAlpineComponentSrc('yoast-seo-manager') }}"
+ax-load-src="{{ FilamentAsset::getAlpineComponentSrc('filament-yoast-seo', 'outreach/filament-yoast-seo') }}"
 x-data="yoastSeoManager()"
 >
     <div class="">
