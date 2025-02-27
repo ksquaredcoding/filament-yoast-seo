@@ -39,8 +39,7 @@ return [
 ## Usage
 
 ```php
-$filamentYoastSeo = new Outreach\Filament\FilamentYoastSeo();
-echo $filamentYoastSeo->echoPhrase('Hello, Outreach\Filament!');
+Outreach\Filament\Forms\Components\FilamentYoastSeo::make();
 ```
 
 ## Testing
