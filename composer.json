@@ -46,6 +46,9 @@
             "aliases": {
                 "FilamentYoastSeo": "Outreach\\Filament\\FilamentYoastSeo\\Facades\\FilamentYoastSeo"
             }
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     },
     "minimum-stability": "dev",
