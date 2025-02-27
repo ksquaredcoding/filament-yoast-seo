@@ -101,9 +101,7 @@ class FilamentYoastSeoServiceProvider extends PackageServiceProvider
     protected function getAssets(): array
     {
         return [
-            // AlpineComponent::make('filament-yoast-seo', __DIR__ . '/../resources/dist/components/filament-yoast-seo.js'),
-            Css::make('filament-yoast-seo-styles', __DIR__ . '/../resources/dist/filament-yoast-seo.css'),
-            Js::make('filament-yoast-seo-scripts', __DIR__ . '/../resources/dist/filament-yoast-seo.js'),
+            AlpineComponent::make('filament-yoast-seo', __DIR__ . '/../resources/dist/components/filament-yoast-seo.js', 'outreach/filament-yoast-seo'),
         ];
     }
 
