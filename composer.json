@@ -29,22 +29,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Outreach\\Filament\\FilamentYoastSeo\\": "src/"
+            "Outreach\\FilamentYoastSeo\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Outreach\\Filament\\FilamentYoastSeo\\Tests\\": "tests/"
+            "Outreach\\FilamentYoastSeo\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Outreach\\Filament\\FilamentYoastSeo\\FilamentYoastSeoServiceProvider"
-            ],
-            "aliases": {
-                "FilamentYoastSeo": "Outreach\\Filament\\FilamentYoastSeo\\Facades\\FilamentYoastSeo"
-            }
+                "Outreach\\FilamentYoastSeo\\FilamentYoastSeoServiceProvider"
+            ]
         },
         "branch-alias": {
             "dev-master": "1.0.x-dev"

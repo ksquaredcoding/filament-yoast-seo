@@ -1,6 +1,6 @@
 <?php
 
-// translations for Outreach\Filament/FilamentYoastSeo
+// translations for Outreach/FilamentYoastSeo
 return [
     //
 ];

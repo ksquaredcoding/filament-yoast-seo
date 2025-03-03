@@ -1,6 +1,6 @@
 <?php
 
-namespace Outreach\Filament\FilamentYoastSeo\Commands;
+namespace Outreach\FilamentYoastSeo\Commands;
 
 use Illuminate\Console\Command;
 

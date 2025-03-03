@@ -1,4 +1,4 @@
 <?php
 
-// config for Outreach\Filament/FilamentYoastSeo
+// config for Outreach/FilamentYoastSeo
 return [];

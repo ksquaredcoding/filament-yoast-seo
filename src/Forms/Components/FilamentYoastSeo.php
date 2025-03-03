@@ -1,6 +1,6 @@
 <?php
 
-namespace Outreach\Filament\Forms\Components;
+namespace Outreach\FilamentYoastSeo\Forms\Components;
 
 use Filament\Forms\Components\Field;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Outreach\Filament\FilamentYoastSeo\Testing;
+namespace Outreach\FilamentYoastSeo\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

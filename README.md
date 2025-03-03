@@ -39,7 +39,7 @@ return [
 ## Usage
 
 ```php
-Outreach\Filament\Forms\Components\FilamentYoastSeo::make();
+Outreach\FilamentYoastSeo\Forms\Components\FilamentYoastSeo::make();
 ```
 
 ## Testing

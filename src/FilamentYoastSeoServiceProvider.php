@@ -1,6 +1,6 @@
 <?php
 
-namespace Outreach\Filament\FilamentYoastSeo;
+namespace Outreach\FilamentYoastSeo;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
@@ -13,8 +13,8 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Outreach\Filament\FilamentYoastSeo\Commands\FilamentYoastSeoCommand;
-use Outreach\Filament\FilamentYoastSeo\Testing\TestsFilamentYoastSeo;
+use Outreach\FilamentYoastSeo\Commands\FilamentYoastSeoCommand;
+use Outreach\FilamentYoastSeo\Testing\TestsFilamentYoastSeo;
 
 class FilamentYoastSeoServiceProvider extends PackageServiceProvider
 {
