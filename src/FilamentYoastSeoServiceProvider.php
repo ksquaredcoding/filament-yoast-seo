@@ -36,8 +36,7 @@ class FilamentYoastSeoServiceProvider extends PackageServiceProvider
                 $command
                     ->publishConfigFile()
                     ->publishMigrations()
-                    ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('outreach/filament-yoast-seo');
+                    ->askToRunMigrations();
             });
 
         $configFileName = $package->shortName();
