@@ -5,12 +5,12 @@ namespace Outreach\Filament\FilamentYoastSeo\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Outreach\Filament\FilamentYoastSeo\FilamentYoastSeo
+ * @see \Outreach\Filament\Forms\Components\FilamentYoastSeo
  */
 class FilamentYoastSeo extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Outreach\Filament\FilamentYoastSeo\FilamentYoastSeo::class;
+        return \Outreach\Filament\Forms\Components\FilamentYoastSeo::class;
     }
 }
