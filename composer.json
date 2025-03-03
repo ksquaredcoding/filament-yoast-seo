@@ -29,8 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Outreach\\Filament\\FilamentYoastSeo\\": "src/",
-            "Outreach\\Filament\\FilamentYoastSeo\\Database\\Factories\\": "database/factories/"
+            "Outreach\\Filament\\FilamentYoastSeo\\": "src/"
         }
     },
     "autoload-dev": {
