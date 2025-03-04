@@ -1,10 +1,9 @@
-import { helpers } from 'yoastseo'
-import isObject from 'lodash/isObject'
-import forEach from 'lodash/forEach'
-import filter from 'lodash/filter'
-import SEOAssessor from "yoastseo/src/seoAssessor";
-import Jed from "jed";
-import { Paper, ContentAssessor } from "yoastseo";
+import { helpers, Paper, ContentAssessor } from '../../node_modules/yoastseo'
+import isObject from '../../node_modules/lodash/isObject'
+import forEach from '../../node_modules/lodash/forEach'
+import filter from '../../node_modules/lodash/filter'
+import SEOAssessor from "../../node_modules/yoastseo/src/seoAssessor";
+import Jed from "../../node_modules/jed";
 
 class Presenter {
 
