@@ -1,5 +1,5 @@
 import { helpers, Paper, ContentAssessor, SeoAssessor } from '../../node_modules/yoastseo'
-import Jed from "../../node_modules/jed";
+import i18n from '../../node_modules/i18n'
 
 class Presenter {
 
@@ -185,7 +185,7 @@ export default function yoastSeoManager() {
             return Math.floor(totalScore / assessmentArray.length);
         },
         i18n() {
-            return new Jed({
+            return new i18n({
             domain: `js-text-analysis`,
             locale_data: {
                 "js-text-analysis": { "": {} },
