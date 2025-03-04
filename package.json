@@ -1,6 +1,7 @@
 {
     "private": true,
     "type": "module",
+    "main": "index.js",
     "scripts": {
         "dev:scripts": "node bin/build.js --dev",
         "build:scripts": "node bin/build.js",
