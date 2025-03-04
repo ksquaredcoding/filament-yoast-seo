@@ -1,7 +1,4 @@
 import { helpers, Paper, ContentAssessor, SeoAssessor } from '../../node_modules/yoastseo'
-import isObject from '../../node_modules/lodash/isObject'
-import forEach from '../../node_modules/lodash/forEach'
-import filter from '../../node_modules/lodash/filter'
 import Jed from "../../node_modules/jed";
 
 class Presenter {
@@ -30,9 +27,7 @@ class Presenter {
     getScores(assessor) {
         const scores = []
 
-        forEach(this.getScoresWithRatings(assessor), (item, key) =>
-            scores.push(this.addRating(item))
-        )
+        this.getScoresWithRatings(assessor).forEach((item) => scores.push(this.addRating(item)));
 
         return scores
     }
@@ -47,15 +42,20 @@ class Presenter {
 
     getScoresWithRatings(assessor) {
         const scores = assessor.getValidResults().map(r => {
-            if (!isObject(r) || !r.getIdentifier()) {
+            if (!this.isObject(r) || !r.getIdentifier()) {
                 return ``;
             }
             r.rating = helpers.scoreToRating(r.score)
             return r
         })
 
-        return filter(scores, r => r !== ``);
+        return scores.filter((r) => r !== ``);
     }
+
+    isObject(value) {
+        var type = typeof value;
+        return value != null && (type == 'object' || type == 'function');
+      }
 }
 
 export default function yoastSeoManager() {
