@@ -22,6 +22,6 @@
         "prettier": "^2.7.1",
         "prettier-plugin-tailwindcss": "^0.1.13",
         "tailwindcss": "^3.3.3",
-        "yoastseo": "^1.91.2"
+        "yoastseo": "2.0.0-alpha.0"
     }
 }

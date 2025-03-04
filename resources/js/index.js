@@ -1,8 +1,7 @@
-import { helpers, Paper, ContentAssessor } from '../../node_modules/yoastseo'
+import { helpers, Paper, ContentAssessor, SeoAssessor } from '../../node_modules/yoastseo'
 import isObject from '../../node_modules/lodash/isObject'
 import forEach from '../../node_modules/lodash/forEach'
 import filter from '../../node_modules/lodash/filter'
-import SEOAssessor from "../../node_modules/yoastseo/src/seoAssessor";
 import Jed from "../../node_modules/jed";
 
 class Presenter {
@@ -160,7 +159,7 @@ export default function yoastSeoManager() {
             permalink: this.url, // The base url + slug
             });
             const contentAssessor = new ContentAssessor(this.i18n());
-            const seoAssessor = new SEOAssessor(this.i18n());
+            const seoAssessor = new SeoAssessor(this.i18n());
             contentAssessor.assess(paper);
             seoAssessor.assess(paper);
             const final_scores = this.getScores(seoAssessor, contentAssessor);
