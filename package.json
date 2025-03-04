@@ -1,10 +1,9 @@
 {
     "private": true,
     "type": "module",
-    "main": "index.js",
+    "main": "filament-yoast-seo.js",
     "scripts": {
-        "build:scripts": "node bin/build.js",
-        "build": "npm-run-all build:*"
+        "build": "vite build"
     },
     "devDependencies": {
         "@awcodes/filament-plugin-purge": "^1.1.1",
@@ -19,6 +18,7 @@
         "prettier": "^2.7.1",
         "prettier-plugin-tailwindcss": "^0.1.13",
         "tailwindcss": "^3.3.3",
+        "vite": "^6.2.0",
         "yoastseo": "2.0.0-alpha.0"
     }
 }
